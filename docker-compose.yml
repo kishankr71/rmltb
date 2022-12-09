@@ -6,6 +6,6 @@ services:
     command: bash start.sh
     restart: on-failure
     ports:
-      - "80:80"
+      - "443:443"
       - "8080:8080"
       
